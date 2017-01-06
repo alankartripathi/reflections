@@ -34,4 +34,5 @@ Now that you have your workspace set up, what do you want to try using Git for?
 
  test 123123
  test 2
-sfasfadsdasd
+sfasfadsdasd 
+test 3 staging area
