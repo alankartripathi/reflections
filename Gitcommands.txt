@@ -1,0 +1,10 @@
+git log : checks log of commits made on the current branch
+git status : tells the changes made to the files in the current branch
+git add filename : adds file to the staging area for saving
+git commit : saves changes to the commit, only includes the files added to the staging area
+git diff : checks the most recent changes in the working branch
+git diff commit1 commit2 : check the difference between the two commits( commit1 - earlier commit, commit2- later commit)
+git checkout branchname : checksout the branch specified
+git branch branchname : creates a new branch of specified name from any commit
+git checkout -b -newbranchname : creates and simultaneously checksout a new branch from the current commit. useful for creating branches when working on non branched commits.
+git log --graph --oneline branch1 branch2 branch3 so on : shows a graph of branch diversion from the master branch 
