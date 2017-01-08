@@ -9,3 +9,5 @@ git checkout branchname : checksout the branch specified
 git branch branchname : creates a new branch of specified name from any commit
 git checkout -b -newbranchname : creates and simultaneously checksout a new branch from the current commit. useful for creating branches when working on non branched commits.
 git log --graph --oneline branch1 branch2 branch3 so on : shows a graph of branch diversion from the master branch 
+git fetch : updates the local repository concurrent to the master remote repository. Now run "git diff" or "git log" to get information about the commits made in the remote and compare them to your own commits.
+git pull : A combination of "git fetch" and "git merge". This update the local origin/master with the remote master and merges the local updated branch with your yet pending branch. 
